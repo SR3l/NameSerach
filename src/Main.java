@@ -66,7 +66,7 @@ public class Main {
             int boyNamesIndex = getName(boyNames, formattedName);
             int girlGirlsIndex = getName(girlNames, formattedName);
 
-            // if else traversing through names within the file
+            // 
             if (boyNamesIndex == -1 && girlGirlsIndex == -1) {
                 System.out.printf("The name '%s' was not found in either list.\n", formattedName);
             } else if (boyNamesIndex != -1 && girlGirlsIndex == -1) {
